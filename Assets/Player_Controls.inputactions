@@ -1,0 +1,45 @@
+{
+    "name": "Player_Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "b9875b0c-4163-4056-8bca-53be7ca402dd",
+            "actions": [
+                {
+                    "name": "Toss",
+                    "type": "Value",
+                    "id": "40b48dbd-c4fa-456b-801a-3cf8d663bb63",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "264da9b0-a9f0-4c39-8602-379fd9fd80d6",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toss",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eba1bda1-50a6-43bc-87eb-b1fb55b020b8",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toss",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
